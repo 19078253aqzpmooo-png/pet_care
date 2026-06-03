@@ -3,6 +3,7 @@ node_modules/
 vendor/
 
 # Build output
+.next/
 dist/
 build/
 out/
@@ -49,9 +50,12 @@ push-to-github.cmd
 push-to-github.bat
 fix-powershell-8009001d.bat
 powershell-8009001d-report.txt
+clean-git-tracked-files.cmd
+clean-git-tracked-files.bat
 
 # Package managers
 .npm/
+.npm-cache/
 .pnpm-store/
 .yarn/cache/
 .yarn/unplugged/
