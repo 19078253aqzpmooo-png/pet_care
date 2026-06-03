@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+dist/
+build/
+out/
+target/
+coverage/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.seed
+*.local
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# IDEs and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local helper scripts
+open-vscode-and-init-git.cmd
+push-to-github.cmd
+push-to-github.bat
+fix-powershell-8009001d.bat
+powershell-8009001d-report.txt
+
+# Package managers
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Generated archives and binaries
+*.zip
+*.tar
+*.tgz
+*.rar
+*.7z
+*.exe
+*.dll
+*.so
+*.dylib
